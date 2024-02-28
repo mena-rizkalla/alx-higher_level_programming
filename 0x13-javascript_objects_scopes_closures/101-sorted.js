@@ -4,7 +4,7 @@ const myDict = {};
 for (const key in dict) {
   const value = dict[key]; 
   if (!myDict[value]) {
-	  myDict[value] = [];
+	myDict[value] = [];
   }
   myDict[value].push(key);
 }
