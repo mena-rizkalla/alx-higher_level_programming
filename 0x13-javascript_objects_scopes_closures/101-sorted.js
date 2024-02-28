@@ -6,6 +6,7 @@ const myDict = {
 	3:[]
 };
 for (const key in dict) {
-    const value = myDict[key];
+    const value = dict[key];
     myDict[value].push(key);
 }
+console.log(myDict);
